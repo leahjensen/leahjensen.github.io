@@ -1,0 +1,44 @@
+p{
+    color: red;
+}
+
+.mypara{
+    color: green;
+}
+
+#byu{
+    color:lightblue;
+} 
+
+p.mypara{
+    color: orange;
+}
+
+#byui.mypara{
+    color: hotpink;
+}
+
+footer p{
+    color: lightgreen
+}
+
+a:link, a:visited{
+    color:lightsalmon;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:aliceblue;
+    color: steelblue;
+}
+
+
+''
+not needed
+
+'''
+
+p:nth-child(2){
+    border: 1px lightgrey;
+}
+
