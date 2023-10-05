@@ -23,10 +23,9 @@ main section {
     text-align: center;
 }
 
-.icon {
-    width: 80px;
+.logo {
+width: 80px;
 }
-
 
 #background {
     height: 725px;
