@@ -38,8 +38,13 @@ body {
 }
 
 header {
+    text-align: center;
     background-color: #023047;
     color: #219EBC
+}
+
+div {
+    text-align: center;
 }
 
 nav a:hover {
