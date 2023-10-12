@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cutive&family=Rokkitt&display=swap');
+
+/**
+--heading-font: "Arvo";
+  --paragraph-font: "Rokkitt, Cutive, Arvo ";
+  **/
+
+
+body {
+    background-color: #023047;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rokkitt, Cutive, Arvo';
+    font-size: 22px;
+    color: #219EBC
+}
+
+header {
+    background-color: #023047;
+    color: #219EBC
+}
+
+#logo-link{
+    padding-top: 5px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +31,7 @@
 
 nav a {
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -32,16 +59,6 @@ main section {
     background-color: #023047;
 }
 
-body {
-    background-color: #023047;
-    color: #219EBC
-}
-
-header {
-    background-color: #023047;
-    color: #219EBC
-}
-
 nav a:hover {
     background-color: #023047;
     color: #219EBC
@@ -51,7 +68,20 @@ nav a:hover {
 .book,
 .join {
     background-color: #023047;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #219EBC;
+    box-sizing: border-box;
     color: #219EBC
+}
+
+.book,
+.join {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    margin-top: 50px;
 }
 
 .book:hover,
@@ -62,17 +92,23 @@ nav a:hover {
 
 .msg {
     background-color: #023047;
+    padding: 35px;
+    line-height: 1.5em;
     color: #219EBC
 }
 
 footer {
     background-color: #023047;
+    margin-top: 200px;
+    padding: 25px 50px;
     color: #219EBC
 }
 
 home-title {
     background-color: whitesmoke;
-    color: #219EBC
+    margin-top: 10px;
+    font-family: "Arvo";
+    font-size: 2em;
 }
 
 h4 {
@@ -82,11 +118,13 @@ h4 {
 
 .msg h2 {
     background-color: #023047;
-    color: #219EBC
+    font-family: "Rokkitt, Cutive, Arvo ";
 }
 
 .msg p {
     background-color: #023047;
+    padding-bottom: 15px;
+    font-size: .8em;
     color: #219EBC
 }
 
@@ -106,13 +144,6 @@ nav a {
     text-decoration: none;
 }
 
-.book,
-.join {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
-
 footer a {
     text-align: center;
     color: #fcfbfb;
@@ -125,4 +156,28 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+.icon{
+    padding-top: 10px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+} 
+
+.card-img{
+    border:10px #219EBC;
+}
+
+main section img {
+    box-sizing: border-box;
 }
