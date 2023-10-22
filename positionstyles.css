@@ -36,6 +36,7 @@
 
 /* Activity 2 styles */
 .content2 {
+    height: 500px;
     /* This is the parent of the activity 2 boxes. */
 }
 
