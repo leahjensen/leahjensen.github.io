@@ -10,7 +10,7 @@ body {
     background-color: #023047;
     margin: 0;
     padding: 0;
-    font-family: 'Rokkitt, Cutive, Arvo';
+    font-family: 'Rokkitt', 'Cutive', 'Arvo', sans-serif;
     font-size: 22px;
     color: #219EBC
 }
@@ -64,14 +64,13 @@ nav a:hover {
     color: #219EBC
 }
 
-
 .book,
 .join {
     background-color: #023047;
     padding: 15px 30px;
     font-size: 18px;
     border-radius: 5px;
-    border: 2px solid #219EBC;
+    border: 10px solid #219EBC;
     box-sizing: border-box;
     color: #219EBC
 }
