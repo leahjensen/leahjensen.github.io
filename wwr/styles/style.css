@@ -271,6 +271,31 @@ main section img {
     grid-row: 4 / 9;
 }
 
+/** blog page**/
+
+.blog-main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+blog-post{
+    background-color:#023047;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem 0;
+}
+
+footer {
+    background-color: #023047;
+    margin-top: 200px;
+    padding: 25px 50px;
+    color: #219EBC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
