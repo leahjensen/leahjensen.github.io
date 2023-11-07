@@ -156,6 +156,29 @@ footer {
     align-items: center;
 }
 
+footer a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+a footer {
+    background-color: #023047;
+    color: #219EBC
+}
+
 home-title {
     background-color: whitesmoke;
     margin-top: 10px;
@@ -180,29 +203,11 @@ h4 {
     color: #219EBC
 }
 
-a footer {
-    background-color: #023047;
-    color: #219EBC
-}
-
 a:hover {
     background-color: #023047;
     color: #219EBC
 }
 
-footer a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
-
-footer p {
-    font-size: 1.2em;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
 
 h2 {
     margin: 0;
@@ -212,9 +217,6 @@ h2 {
     padding-top: 10px;
 }
 
-footer .social img {
-    padding-top: 15px;
-}
 
 .rivers-card,
 .camping-card,
@@ -278,7 +280,7 @@ main section img {
     margin: 0 auto;
 }
 
-blog-post{
+.blog-post{
     background-color:#023047;
     color: whitesmoke;
     border-radius: 10px;
@@ -286,15 +288,7 @@ blog-post{
     margin: .5rem 0;
 }
 
-footer {
-    background-color: #023047;
-    margin-top: 200px;
-    padding: 25px 50px;
-    color: #219EBC;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 @media screen and (max-width: 900px) {
 
