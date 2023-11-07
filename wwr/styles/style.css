@@ -35,28 +35,22 @@ nav {
 #hero-msg {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* Create a 3-column grid with equal widths */
     grid-template-rows: 1fr 1fr;
-    /* Create 2 rows with equal heights */
     background: url('https://byui-wdd.github.io/wdd130/rafting_images/hero.png') no-repeat center center;
     background-size: cover;
     text-align: center;
     color: white;
-    /* Set text color to white for better contrast on the background image */
 }
 
 #hero-box {
     grid-column: 2 / 3;
-    /* Span from column line 2 to 3 (middle column) */
     grid-row: 1 / 2;
-    /* Span from row line 1 to 2 (top row) */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
-    /* Add a semi-transparent background for better text readability */
 }
 
 #hero-msg h4 {
@@ -192,11 +186,6 @@ home-title {
     font-size: 2em;
 }
 
-h4 {
-    background-color:
-        color: whitesmoke;
-}
-
 .msg h2 {
     background-color: #023047;
     font-family: Rokkitt, Cutive, Arvo, serif;
@@ -214,7 +203,6 @@ a:hover {
     color: #219EBC
 }
 
-
 h2 {
     margin: 0;
 }
@@ -222,7 +210,6 @@ h2 {
 .icon {
     padding-top: 10px;
 }
-
 
 .rivers-card,
 .camping-card,
@@ -302,13 +289,7 @@ main section img {
     margin-right: auto;
 }
 
-h4,
-h5,
-h6,
-h7,
-h8,
-h9,
-h10 {
+h4 {
     background-color: #219EBC;
 }
 
