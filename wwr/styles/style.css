@@ -35,8 +35,6 @@ nav {
 #hero-msg {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background: url('https://byui-wdd.github.io/wdd130/rafting_images/hero.png') no-repeat center center;
     background-size: cover;
     text-align: center;
     color: white;
