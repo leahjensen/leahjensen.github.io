@@ -19,13 +19,12 @@ Fonts are separated by a | */
   --headline-color-on-color: #FDF0D5; /* headlines on a colored background */ 
   --paragraph-color-on-white: #003049; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FDF0D5; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #C1121F;
+  --paragraph-background-color: #669BBC;
   --nav-link-color: #003049;
   --nav-background-color: #669BBC;
-  --nav-hover-link-color: #FDF0D5;
+  --nav-hover-link-color: #A42212;
   --nav-hover-background-color: #669BBC;
 }
-
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -61,6 +60,12 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+
+.logo {
+  width: 100px;
+  
+}
+
 
 p {
   font-family: var(--paragraph-font);
