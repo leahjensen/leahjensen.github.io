@@ -1,0 +1,26 @@
+.accordion {
+    background-color: rgb(21, 122, 50);
+    color: #7cf582;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #c2f2d0;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(21, 122, 50);
+    display: none;
+    overflow: hidden;
+  }
+
+  h1, h2{
+    text-align: center;
+  }
