@@ -262,13 +262,13 @@ a footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 0px 0px 140px;
 }
 
 .p1 {
     color: #669BBC;
     font-family: var(--paragraph-font);
     padding: 0.5em;
-    /* margin-top: 50px; */
 }
 
 .details {
