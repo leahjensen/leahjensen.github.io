@@ -220,25 +220,26 @@ a footer {
 }
 
 .circle-details {
-    display: flex;
     justify-content: left;
     position: relative;
     text-align: center;
+    margin-top: -40px;
 }
 
-.d-circle-content {
+.tickets-circle-content {
     background: #003049;
     border-radius: 50%;
-    width: 200px;
-    height: 50px;
+    width: auto;
+    height: auto;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 0px 0px 125px;
-}
+    margin: 0px 125px 0px 125px;
+    margin-top: 20px;
+} 
 
-.tickets {
+h5 {
     color: #669BBC;
     font-family: var(--paragraph-font);
     padding: 0.5em;
@@ -250,11 +251,10 @@ a footer {
     font-size: 18px;
     background: #003049;
     border-radius: 8px;
-    margin-top: 15px;
-}
-
-.p5 {
+    margin-top: -20px;
     color: #669BBC;
+    padding: 10px;
+    margin-bottom: 103px;
 }
 
 .TJ {
