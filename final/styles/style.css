@@ -134,7 +134,7 @@ h2 {
 }
 
 img {
-    margin: 0px 0px 50px 40px;
+    margin: 0px 0px 50px 50px;
 
 }
 
@@ -161,7 +161,7 @@ h4 {
     align-content: stretch;
     margin-top: 20px;
     text-align: center;
-    margin: 30px;
+    margin: 60px 0px 0px 35px;
 }
 
 h3 {
