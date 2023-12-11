@@ -292,16 +292,10 @@ h5 {
     background-color: #003049;
     font-family: var(--paragraph-font);
     padding: 20px;
-    border-radius: 10px;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    margin-top: 400px;
-    margin-bottom: 200px;
     text-align: center;
-
     border-style: solid;
     border-radius: 20px;
-    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
 }
