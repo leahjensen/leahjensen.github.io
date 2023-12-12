@@ -176,6 +176,11 @@ h3 {
     align-items: center;
 }
 
+
+  a:visited{
+    color:#669BBC;
+  }
+
 footer {
     background-color: #669BBC;
     margin-top: 200px;
@@ -298,4 +303,20 @@ h5 {
     width: 50%;
     margin: 0 auto;
     font-size: 20px;
+}
+
+.Questions1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.Questions2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
 }
