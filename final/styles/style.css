@@ -311,6 +311,7 @@ h5 {
     margin-right: auto;
     width: 60%;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 .Questions2 img{
@@ -319,4 +320,5 @@ h5 {
     margin-right: auto;
     width: 50%;
     margin-top: 50px;
+    border-radius: 20px;
 }
